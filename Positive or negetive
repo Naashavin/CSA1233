@@ -1,0 +1,8 @@
+lda 2050
+Ani 01
+jz 200d
+mvi a , 11
+jmp 200f
+mvi a , 22
+sta 2000
+hlt
