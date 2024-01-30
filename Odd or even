@@ -1,0 +1,8 @@
+LDA     2050
+ANI     01
+JZ loop
+MVI     A 11
+JMP loop1
+loop MVI A 22
+loop 1 STA 3050
+HLT
